@@ -1,0 +1,15 @@
+Feature: Quarter is accepted
+
+
+Initial state:
+VendingMachine
+Display                      INSERT COIN
+Balance                                0
+Coins                                 []
+
+
+insert coin - quarter:
+VendingMachine
+Display                               25
+Balance                               25
+Coins                               [25]

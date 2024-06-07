@@ -1,0 +1,15 @@
+Feature: Update balance displayed when coin inserted
+
+
+Initial state:
+VendingMachine
+Display                               30
+Balance                               30
+Coins                             [5,25]
+
+
+insert coin - dime:
+VendingMachine
+Display                               40
+Balance                               40
+Coins                          [5,25,10]
