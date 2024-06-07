@@ -1,0 +1,16 @@
+target
+**/*.iml
+.idea
+**/__pycache__
+**/*.pyc
+.cache
+out/
+build/
+.gradle/
+.DS_Store
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
